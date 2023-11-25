@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/linearScore"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textAllCaps="false"
+        android:textColor="@color/blue"
+        android:id="@+id/score"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:text="Restart Quiz"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:textAllCaps="false"
+        android:id="@+id/restartQuiz"/>
+
+
+
+
+</LinearLayout>
